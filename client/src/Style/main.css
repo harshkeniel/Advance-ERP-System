@@ -1,0 +1,109 @@
+/* This is edit.css - The CSS File for 'edit.html' */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3, h4, h6{
+    font-weight: bold;
+    /* margin: 5px auto; */
+    text-align: center;
+}
+
+a, a:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+form{
+    border: 2px solid black;
+    padding: 20px 25px;
+    border-radius: 15px;
+    width: 60%;
+    margin: 10px auto;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.65);
+}
+
+label{
+    font-weight: 600;
+}
+
+.fa-edit{
+    color: orange;
+}
+
+.vh-100{
+    height: auto;
+}
+
+.crossword{
+    border-collapse: collapse;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+thead{
+    background-color: #16a085;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+
+tr{
+    transition: all .2s ease-in;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.data{
+    text-align: center;
+}
+
+.data:hover{
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.save{
+    background-color: #c9003c;
+    border-radius: 25px;
+    border: none;
+}
+
+.crossword{
+    width: 100%;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.crossword, .tr-crossword, .td-crossword{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+.td-crossword{
+    width: 20px;
+    height: 30px;
+}
+
+.td-bg-black{
+    background-color: black;
+}
+
+.td-bg-new{
+    background-color: grey;
+}
+
+.td-bg-white{
+    background-color: white;
+}
