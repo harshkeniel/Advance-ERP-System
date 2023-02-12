@@ -52,7 +52,7 @@ const Home = () => {
                             <button type="button" className="btn"><Link to="/admin/allStudents"><li>All Students</li></Link></button>
                         </li>
                         <li className="nav-item">
-                            <button type="button" className="btn"><Link to="/admin/allSubject"><li>Add Subjects</li></Link></button>
+                            <button type="button" className="btn"><Link to="/admin/allSubject"><li>All Subjects</li></Link></button>
                         </li>
 
                     </ul>
